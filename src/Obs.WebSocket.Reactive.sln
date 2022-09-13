@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Obs.v4.WebSocket", "Obs.v4.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Obs.v4.WebSocket.Reactive", "Obs.v4.WebSocket.Reactive\Obs.v4.WebSocket.Reactive.csproj", "{05ACABFA-16E0-4F6B-BAEC-3D8568892687}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Obs.v5.WebSocket.Reactive", "Obs.v5.WebSocket.Reactive\Obs.v5.WebSocket.Reactive.csproj", "{EEAF0875-BA8B-40AA-AE5C-510ABE718EA3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,6 +20,10 @@ Global
 		{05ACABFA-16E0-4F6B-BAEC-3D8568892687}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{05ACABFA-16E0-4F6B-BAEC-3D8568892687}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{05ACABFA-16E0-4F6B-BAEC-3D8568892687}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEAF0875-BA8B-40AA-AE5C-510ABE718EA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEAF0875-BA8B-40AA-AE5C-510ABE718EA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEAF0875-BA8B-40AA-AE5C-510ABE718EA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEAF0875-BA8B-40AA-AE5C-510ABE718EA3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 	EndGlobalSection
