@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+    </PropertyGroup>
+    
+    <ItemGroup>
+      <ProjectReference Include="..\Obs.v4.WebSocket\Obs.v4.WebSocket.csproj" />
+    </ItemGroup>
+    
+    <ItemGroup>
+      <PackageReference Include="System.Reactive" Version="5.0.0" />
+      <PackageReference Include="System.Reactive.Linq" Version="5.0.0" />
+    </ItemGroup>
+
+</Project>

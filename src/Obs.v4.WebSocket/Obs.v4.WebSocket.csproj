@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netstandard2.0</TargetFramework>
+		<Copyright>Copyright © Stéphane Lepin 2020</Copyright>
+		<LangVersion>8</LangVersion>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="WebSocket4Net" Version="0.15.2" />
+	</ItemGroup>
+
+</Project>

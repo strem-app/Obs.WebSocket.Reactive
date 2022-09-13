@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Obs.v4.WebSocket", "Obs.v4.WebSocket\Obs.v4.WebSocket.csproj", "{76A878A2-ED2C-401D-AAA0-4540DAC6830F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Obs.v4.WebSocket.Reactive", "Obs.v4.WebSocket.Reactive\Obs.v4.WebSocket.Reactive.csproj", "{05ACABFA-16E0-4F6B-BAEC-3D8568892687}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{76A878A2-ED2C-401D-AAA0-4540DAC6830F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76A878A2-ED2C-401D-AAA0-4540DAC6830F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76A878A2-ED2C-401D-AAA0-4540DAC6830F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76A878A2-ED2C-401D-AAA0-4540DAC6830F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05ACABFA-16E0-4F6B-BAEC-3D8568892687}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05ACABFA-16E0-4F6B-BAEC-3D8568892687}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05ACABFA-16E0-4F6B-BAEC-3D8568892687}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05ACABFA-16E0-4F6B-BAEC-3D8568892687}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+	EndGlobalSection
+EndGlobal
