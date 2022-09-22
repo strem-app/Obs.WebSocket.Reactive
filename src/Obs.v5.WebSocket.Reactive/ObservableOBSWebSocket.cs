@@ -328,9 +328,9 @@ public class ObservableOBSWebSocket : OBSWebsocket, IObservableOBSWebSocket
                 x => CurrentPreviewSceneChanged -= x)
             .Select(x => x.EventArgs);
         
-        OnCurrentPreviewSceneChanged = Observable.FromEventPattern<CurrentPreviewSceneChangedEventArgs>(
-                x => CurrentPreviewSceneChanged += x,
-                x => CurrentPreviewSceneChanged -= x)
+        OnStudioModeStateChanged = Observable.FromEventPattern<StudioModeStateChangedEventArgs>(
+                x => StudioModeStateChanged += x,
+                x => StudioModeStateChanged -= x)
             .Select(x => x.EventArgs);
         
         OnExitStarted = Observable.FromEventPattern(
