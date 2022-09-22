@@ -1,6 +1,5 @@
 ﻿using System.Reactive;
 using System.Reactive.Linq;
-using Newtonsoft.Json.Linq;
 using Obs.v5.WebSocket.Reactive.Extensions;
 using OBSWebsocketDotNet;
 using OBSWebsocketDotNet.Communication;
