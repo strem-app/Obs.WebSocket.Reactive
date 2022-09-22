@@ -14,9 +14,9 @@ dotnet_csproj:
   file_version: '{version}'
   informational_version: '{version}'
 before_build:
-- cmd: nuget restore src/Obs.v4.Websocket.Reactive.sln
+- cmd: nuget restore src/Obs.Websocket.Reactive.sln
 build:
-  project: src/Obs.v4.Websocket.Reactive.sln
+  project: src/Obs.Websocket.Reactive.sln
   publish_nuget: true
   verbosity: minimal
 artifacts:

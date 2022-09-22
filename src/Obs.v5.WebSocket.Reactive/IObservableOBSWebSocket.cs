@@ -1,6 +1,8 @@
-﻿namespace Obs.v5.WebSocket.Reactive;
+﻿using OBSWebsocketDotNet;
 
-public interface IObservableOBSWebSocket
+namespace Obs.v5.WebSocket.Reactive;
+
+public interface IObservableOBSWebSocket : IOBSWebsocket
 {
    
 }
