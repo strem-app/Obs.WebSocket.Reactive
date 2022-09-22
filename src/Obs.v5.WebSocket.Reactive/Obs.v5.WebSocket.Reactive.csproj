@@ -4,6 +4,12 @@
         <TargetFramework>net6.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
+        <Title>Obs.v5.WebSocket.Reactive</Title>
+        <Authors>Grofit (LP)</Authors>
+        <PackageLicenseUrl>https://github.com/strem-app/Obs.WebSocket.Reactive/master/LICENSE</PackageLicenseUrl>
+        <PackageProjectUrl>https://github.com/strem-app/Obs.WebSocket.Reactive</PackageProjectUrl>
+        <Description>This wraps the default obs v5 websocket with observables to use as well as the events</Description>
+        <PackageTags>obs rx reactive observable</PackageTags>
     </PropertyGroup>
 
     <ItemGroup>

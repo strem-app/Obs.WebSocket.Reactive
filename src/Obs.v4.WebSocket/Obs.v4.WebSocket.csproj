@@ -2,9 +2,14 @@
 
 	<PropertyGroup>
 		<TargetFramework>netstandard2.0</TargetFramework>
-		<Copyright>Copyright © Stéphane Lepin 2020</Copyright>
 		<LangVersion>8</LangVersion>
 		<Nullable>enable</Nullable>
+		<Title>Obs.v4.WebSocket</Title>
+		<Authors>Grofit (LP)</Authors>
+		<PackageLicenseUrl>https://github.com/strem-app/Obs.WebSocket.Reactive/master/LICENSE</PackageLicenseUrl>
+		<PackageProjectUrl>https://github.com/strem-app/Obs.WebSocket.Reactive</PackageProjectUrl>
+		<Description>This is a custom version of a branch on the obs-websocket-dotnet project</Description>
+		<PackageTags>obs</PackageTags>
 	</PropertyGroup>
 
 	<ItemGroup>
