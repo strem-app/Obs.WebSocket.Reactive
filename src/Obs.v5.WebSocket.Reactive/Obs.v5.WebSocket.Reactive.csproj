@@ -14,7 +14,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <PackageReference Include="obs-websocket-dotnet" Version="5.0.0.1" />
+      <PackageReference Include="obs-websocket-dotnet" Version="5.0.0.2" />
     </ItemGroup>
 
 </Project>
